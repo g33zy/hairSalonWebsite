@@ -105,6 +105,15 @@ nav {
   left: 5px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: lightblue;
+    padding-bottom: 10px;
+    font-style: italic;
+    color: rgb(0, 160, 247);
+}
+
 
 footer {
     width: 100%;
@@ -450,6 +459,22 @@ footer {
     .hamburger {
       display: none;
     }
+
+    section{
+        
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        
+    }
+
+
+
     .machete-container {
         background-image: url("https://images.unsplash.com/photo-1533922922960-9fceb9ef4733?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
         background-repeat: no-repeat;
@@ -460,6 +485,7 @@ footer {
       
       .machete{
         width: 1000%
+        
       }
       
       .embed-machete {
@@ -474,6 +500,9 @@ footer {
         background-color: rgba(255, 255, 255, .75);
         color: black;
         padding: 10px;
+        opacity: 80%;
+        font-size: 30px;
+        width: fit-content;
       }
       
       .machete-p {
@@ -482,6 +511,7 @@ footer {
         padding: 5px;
         margin-left: 10px;
         margin: 5px;
+        width: fit-content;
       }
       
       .more-info {
@@ -517,6 +547,8 @@ footer {
         background-color: rgba(255, 255, 255, .75);
         color: black;
         padding: 10px;
+        width: fit-content;
+        font-size: 30px;
       }
       
       .car-p {
@@ -525,6 +557,7 @@ footer {
         padding: 5px;
         margin-left: 10px;
         margin: 5px;
+        width: fit-content;
       }
       
       .more-info {
@@ -562,6 +595,10 @@ footer {
         background-color: rgba(255, 255, 255, .75);
         color: black;
         padding: 10px;
+        width: fit-content;
+        opacity: 80%;
+        font-size: 30px;
+        opacity: 80%;
         
       }
       
@@ -571,6 +608,7 @@ footer {
         padding: 5px;
         margin-left: 10px;
         margin: 5px;
+        width: fit-content;
       }
       
       .more-info {
