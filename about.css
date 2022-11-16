@@ -115,12 +115,13 @@ h2 {
   text-align: center;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 20px;
+  background-color: lightblue;
+  
 }
 
   .about-section > P {
     margin-bottom: 20px;
   }
-  
   
 
 
