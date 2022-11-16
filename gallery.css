@@ -188,7 +188,8 @@ div {
 } */
 
 section {
-  width: 100%;
+  /* width: 100%; */
+  width: fit-content;
   background-color: lightblue;
   display: flex;
   flex-wrap: wrap;
@@ -200,28 +201,35 @@ section {
 
 
 .small-picture {
-  width: 100%;
+  width: 98%;
   margin: 0;
   padding: 5px 5px;
 }
 
 img {
   object-fit: contain;
-  width: 100%;
+  width: 98%;
+  display: flex;
 }
 
 .about-text{
   border: solid black 2px;
-  width: 100%;
+  /* width: 100%; */
+  width: fit-content;
   text-align: center;
   height: auto;
   background-color: lightblue;
   padding: 30px;
   display: flex;
   font-family: Georgia, 'Times New Roman', Times, serif;
+
+  
   
 
 }
+
+
+
 
 footer {
     width: 100%;
@@ -299,18 +307,20 @@ footer {
     
     img {
       object-fit: contain;
-      width: 100%;
+      width: 98%;
+     
     }
     
     .about-text{
       border: solid black 2px;
-      width: 100%;
+      width: fit-content;
       text-align: center;
       height: auto;
       background-color: lightblue;
       padding: 30px;
       display: flex;
       font-family: Georgia, 'Times New Roman', Times, serif;
+      /* object-fit: contain; */
       
     
     }
@@ -319,6 +329,59 @@ footer {
 
 
 @media (min-width: 1000px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+    
+  }
+  nav {
+    padding-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    display: static;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  section {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  
+  .small-picture {
+    width: 100%;
+    margin: 0;
+    padding: 5px 5px;
+  }
+  
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .about-text{
+    border: solid black 2px;
+    width:fit-content;
+    text-align: center;
+    height: auto;
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  
+  }
+  
+}
+
+@media (min-width: 2000px) {
   .button-54 {
     padding: 0.25em 0.75em;
     
@@ -368,5 +431,4 @@ footer {
     
   
   }
-  
 }

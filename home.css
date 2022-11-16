@@ -308,6 +308,7 @@ footer img {
 
   .hair-type {
     display: flex;
+    padding: 40px;
     
 
   }
@@ -332,12 +333,6 @@ footer img {
 
   }
 
-  
-  .hair-type {
-    padding: 40px;
-    
-    
-  }
 
   .hair-type div {
     margin: 40px;
