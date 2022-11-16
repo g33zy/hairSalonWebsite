@@ -158,15 +158,16 @@ footer {
   .embed-machete {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   
   }
   .machete-subtitle {
     background-color: rgba(255, 255, 255, .75);
     color: black;
     padding: 10px;
+    
   }
   
   .machete-p {
@@ -201,9 +202,9 @@ footer {
   .embed-car {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   
   }
   .car-subtitle {
@@ -246,9 +247,9 @@ footer {
   .embed-hideout {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   
   }
   .hideout-subtitle {
@@ -327,9 +328,9 @@ footer {
       .embed-machete {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .machete-subtitle {
@@ -370,9 +371,9 @@ footer {
       .embed-car {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .car-subtitle {
@@ -415,9 +416,9 @@ footer {
       .embed-hideout {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .hideout-subtitle {
@@ -432,6 +433,7 @@ footer {
         padding: 5px;
         margin-left: 10px;
         margin: 5px;
+        /* font-size: 30px; */
       }
       
       .more-info {
@@ -460,10 +462,7 @@ footer {
       display: none;
     }
 
-    section{
-        
-
-    }
+    
 
     main {
         display: flex;
@@ -491,9 +490,9 @@ footer {
       .embed-machete {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .machete-subtitle {
@@ -538,9 +537,9 @@ footer {
       .embed-car {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .car-subtitle {
@@ -586,9 +585,9 @@ footer {
       .embed-hideout {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
       
       }
       .hideout-subtitle {
@@ -620,4 +619,178 @@ footer {
     
     
     
+}
+
+@media (min-width: 2000px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+    
+  }
+  nav {
+    padding-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    display: static;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  
+
+  main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      
+  }
+
+
+
+  .machete-container {
+      background-image: url("https://images.unsplash.com/photo-1533922922960-9fceb9ef4733?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .machete{
+      width: 1000%
+      
+    }
+    
+    .embed-machete {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      /* margin-left: 10px; */
+    
+    }
+    .machete-subtitle {
+      background-color: rgba(255, 255, 255, .75);
+      color: black;
+      padding: 10px;
+      opacity: 80%;
+      font-size: 30px;
+      width: fit-content;
+    }
+    
+    .machete-p {
+      background-color: rgba(0, 0, 0, .5);
+      color: white;
+      padding: 5px;
+      margin-left: 10px;
+      margin: 5px;
+      width: fit-content;
+    }
+    
+    .more-info {
+      background-color: rgba(173, 216, 230, .6);
+      font-weight: 1000;
+      margin-left: 10px;
+    
+    }
+    
+   /* start of secoond container */
+  
+   .car-container {
+      background-image: url("https://images.unsplash.com/photo-1563831816793-3d32d7cc07d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .car{
+      width: 1000%
+    }
+    
+    .embed-car {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      height: 100%;
+      /* margin-left: 10px; */
+    
+    }
+    .car-subtitle {
+      background-color: rgba(255, 255, 255, .75);
+      color: black;
+      padding: 10px;
+      width: fit-content;
+      font-size: 30px;
+    }
+    
+    .car-p {
+      background-color: rgba(0, 0, 0, .5);
+      color: white;
+      padding: 5px;
+      margin-left: 10px;
+      margin: 5px;
+      width: fit-content;
+    }
+    
+    .more-info {
+      background-color: rgba(173, 216, 230, .6);
+      font-weight: 1000;
+      margin-left: 10px;
+    
+    }
+  
+  
+  
+    /* start of third container */
+  
+    .hideout-container {
+      background-image: url("https://images.unsplash.com/photo-1468933782546-60d90db7d0a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .hideout{
+      width: 1000%
+    }
+    
+    .embed-hideout {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      height: 100%;
+      /* margin-left: 10px; */
+    
+    }
+    .hideout-subtitle {
+      background-color: rgba(255, 255, 255, .75);
+      color: black;
+      padding: 10px;
+      width: fit-content;
+      opacity: 80%;
+      font-size: 30px;
+      opacity: 80%;
+      
+    }
+    
+    .hideout-p {
+      background-color: rgba(0, 0, 0, .5);
+      color: white;
+      padding: 5px;
+      margin-left: 10px;
+      margin: 5px;
+      width: fit-content;
+    }
+    
+    .more-info {
+      background-color: rgba(173, 216, 230, .6);
+      font-weight: 1000;
+      margin-left: 10px;
+    
+    }
+  
+  
+  
 }
