@@ -378,7 +378,10 @@ footer {
     
   
   }
-  
+  .pic-containter{
+    box-sizing: border-box;
+  }
+
 }
 
 @media (min-width: 2000px) {
