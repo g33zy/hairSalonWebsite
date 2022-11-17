@@ -193,18 +193,18 @@ section {
   background-color: lightblue;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
 }
 
 
-.small-picture {
+/* .small-picture {
   width: 98%;
   margin: 0;
   padding: 5px 5px;
-}
+} */
 
 img {
   object-fit: contain;
